@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de var e if</title>
+</head>
+<body>
+    <h1>Pesquisa de nacionalidade</h1>
+
+    <P>Digite seu país onde reside</P>
+    
+    <input type="text" name="txtn" id="txtn">
+    <input type="button" value="Enviar" onclick="enviou">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        function enviou() {
+            var txt = window.document.getElementById('txtn')
+            var país = window.document.getElementById('res')
+            res.innerHTML = `O país onde você reside é ${txtn}`
+
+            if (país != 'Brasil') {
+                res.innerHTML = `Você é estrangeiro e mora em ${txtn}`
+            } else {
+                res.innerHTML = `Você é Brasileiro`
+            }
+
+        }
+    </script>
+</body>
+</html>
