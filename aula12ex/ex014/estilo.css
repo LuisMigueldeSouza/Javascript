@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
 body {
     background-color: rgb(96, 147, 255);
     font: normal 15px Arial;
